@@ -38,7 +38,7 @@ function App() {
         <div className="container">
           <div className="row">
 
-          <div className="col-12 m-5">
+          <div className="col-12 mt-5">
             <Route path="/" exact component={TodosList} />
             <Route path="/edit/:id" component={EditTodo} />
             <Route path="/create" component={CreateTodo} />
